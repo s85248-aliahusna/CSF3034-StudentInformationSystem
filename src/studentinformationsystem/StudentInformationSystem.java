@@ -1,13 +1,26 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package studentinformationsystem;
 
-/**
- *
- * @author Lenovo
- */
 public class StudentInformationSystem {
+    public static void main(String[] args) {
+        System.out.println("=== Student Information System ===");
+        System.out.println("Name: Nur Alia Husna binti Fauzi");
+        System.out.println("Student ID: S85248");
+        
+        int mark1 = 42;
+        int mark2 = 45;
+        int total = mark1 + mark2;
+
+        System.out.println("Total Mark: " + total);
+
+        if (total >= 80) {
+            System.out.println("Result: Excellent");
+        } else if (total >= 50) {
+            System.out.println("Result: Good");
+        } else {
+            System.out.println("Result: Needs Improvement");
+        }
+    
+    }
     
 }
